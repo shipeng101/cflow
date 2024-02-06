@@ -41,7 +41,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            neosmemo/memos
+            usememos/memos:test
             ghcr.io/usememos/memos
           flavor: |
             latest=false
